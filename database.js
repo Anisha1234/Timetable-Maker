@@ -4,7 +4,7 @@ var mysql = require("mysql");
 var con = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "Khedia@123",
+  password: "",
   database: "Timetable_Maker"
 });
 
@@ -12,4 +12,4 @@ var tablename= "test";
 module.exports = {
   tablename : tablename,
   connection : con
-}
+};
